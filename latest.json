@@ -12,6 +12,6 @@
     "修复：网页头像与昵称未对齐客户端。新增 `/api/client-avatar` 直接读客户端官方皮肤并裁出头部，名称/账号类型与客户端保持一致，overview 刷新时局部更新不再回退成管理员名"
   ],
   "url": "https://github.com/xiaochaoqwer/CSY_Glimmer_Release/releases/download/v1.1.0/CSY_Glimmer_1.1.0.exe",
-  "sha256": "e77accc82f6de2c19b994d796ab79cce599026e4f8ac2fbca2e0c96e6ed1619f",
-  "size": 81354654
+  "sha256": "917e27bb78f6e96151b898150ce27a55923e511959ae476723d268d0d8b6e643",
+  "size": 81341121
 }
