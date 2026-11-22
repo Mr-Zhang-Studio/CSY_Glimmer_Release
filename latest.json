@@ -1,14 +1,15 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "releasedAt": "2026-11-22",
   "notes": [
-    "修复：手动下载的整合包放进 `games/modpacks` 后界面看不到、点导入报「找不到整合包文件」。新增本地整合包扫描列表，可直接看到并一键导入；同时修复 preload 把 `{ filePath }` 再包一层导致路径变成 `[object Object]` 的问题",
-    "修复：Forge / NeoForge 整合包导入后加载器版本传错（把 `1.20.1` 当成 Forge 版本），实例会退化成原版并带着 Forge 模组，必然无法加载。现在按 `1.20.1-47.4.10` 安装，profile id 正确；安装失败会明确报错，不再静默降级",
-    "修复：Forge 库地址没有走镜像，`JarJarSelector`、`mixin` 等被回退到 Maven Central 后 404；BMCL 还会对默认 UA 返回 429。已补 BMCL 镜像规则、浏览器 UA、库下载 16 路并发和正确回退",
-    "新增：导入后自动下载游戏本体、依赖库与资源文件，并按版本精确准备 Java（1.20.1 / Forge 47 使用 Java 17）；导入进度分阶段显示，实例导入后立即落库可见",
-    "实测：`Zombie Invade 100 Days 2.3`（Forge 47.4.10 / 129 文件 / 315MB）走完扫描、导入、加载器、客户端、资源、Java 全流程，实例 143 个模组、1176 项配置、3600 个资源文件，`isInstalled=true`"
+    "修复：网页面板在亮色壁纸下发白、卡片和文字看不清。根因是网页把壁纸写成 `body` 内联 `background-image`，覆盖了暗色遮罩；改为 `--bg-image` 变量 + 遮罩，卡片/侧栏/顶栏统一深色玻璃",
+    "修复：网页面板左下角仍显示 `v1.0.7`。根因是旧客户端/旧面板进程仍占用 27123；新增未登录 `/api/version` 探针，客户端检测到旧版会在新端口启动并提示新地址，静态资源改为 no-store，侧栏版本兜底改为 1.1.2",
+    "优化：整合包文件级下载由 8 路提升到 32 路，恢复按文件大小自动分片，进度显示已下载 MB 与实时 MB/s；209MB 实测从约 115s 降到约 103s，小文件受 CDN 单连接影响仍有限",
+    "修复：高清皮肤（128×128）按 64×64 坐标切面导致眼睛/脸部错位；切面前先归一化到 64×64，并补渲染帽子/外层，保持像素清晰",
+    "修复：CurseForge 整合包现在会解析清单里的 projectID/fileID 并下载模组；MultiMC/CurseForge 补 NeoForge 识别，Fabric/Quilt/Forge/NeoForge 均会安装加载器并补齐游戏本体、依赖库、资源和 Java",
+    "修复：客户端启动时自动加载已保存壁纸，壁纸站来源默认每次启动随机换一张；设置页新增开关，本地图片和主动清空不受影响"
   ],
-  "url": "https://github.com/xiaochaoqwer/CSY_Glimmer_Release/releases/download/v1.1.1/CSY_Glimmer_1.1.1.exe",
-  "sha256": "9db1b1c51d8cac65998953e6dc28f6823efca57a398a85e7c1b954d59b268d0b",
-  "size": 81339977
+  "url": "https://github.com/xiaochaoqwer/CSY_Glimmer_Release/releases/download/v1.1.2/CSY_Glimmer_1.1.2.exe",
+  "sha256": "28b7e85b8e2e7101c32ada3734a13e69227c4d29e1c9c1926c13db53140a09d3",
+  "size": 81345548
 }
