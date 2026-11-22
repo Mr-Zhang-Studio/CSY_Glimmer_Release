@@ -9,6 +9,6 @@
     "实测：`Zombie Invade 100 Days 2.3`（Forge 47.4.10 / 129 文件 / 315MB）走完扫描、导入、加载器、客户端、资源、Java 全流程，实例 143 个模组、1176 项配置、3600 个资源文件，`isInstalled=true`"
   ],
   "url": "https://github.com/xiaochaoqwer/CSY_Glimmer_Release/releases/download/v1.1.1/CSY_Glimmer_1.1.1.exe",
-  "sha256": "34c3d1835a07809a106318be0cd8a99a5328d9f7c53c347b94af2a88deb8c014",
-  "size": 81351730
+  "sha256": "9db1b1c51d8cac65998953e6dc28f6823efca57a398a85e7c1b954d59b268d0b",
+  "size": 81339977
 }
