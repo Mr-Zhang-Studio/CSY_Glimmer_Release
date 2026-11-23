@@ -8,7 +8,7 @@
     "调整：一键开服改为先选服务端与版本，再填端口与内存，不再固定最新 Paper。",
     "修复：网页端深色遮罩与深色渐变残留导致页面下半区发黑，统一替换为奶白薄纱。"
   ],
-  "url": "https://github.com/xiaochaoqwer/CSY_Glimmer_Release/releases/download/v2.0.2/CSY_Glimmer_2.0.2.exe",
-  "sha256": "7b2ce4a8d384079df0b0992bb947f27ca4a1688f63c7565ce93aa7a9ed99e660",
-  "size": 81360250
+  "url": "https://github.com/Mr-Zhang-Studio/CSY_Glimmer_Release/releases/download/v2.0.2/CSY_Glimmer_2.0.2.exe",
+  "sha256": "c38dc4d34540e95a620a58040c9f6ee03f0e6519e87c475f42205b202ea5a758",
+  "size": 81365877
 }
