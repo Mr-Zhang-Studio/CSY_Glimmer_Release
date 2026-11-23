@@ -1,6 +1,4 @@
-# Mr.Zhang · 萤川 星野
-
-> GitHub 项目名：Mr.Zhang；客户端产品名仍为 CSY Glimmer。
+# CSY Glimmer · 萤川 星野
 
 一个粉色可爱风格的 Minecraft 启动器，把「装游戏」「装整合包」「开服务器」「管服务器」放在同一个软件里；桌面端用 Electron + React，内置网页面板与远程节点，手机或另一台电脑用浏览器也能管同一批服务器。
 
