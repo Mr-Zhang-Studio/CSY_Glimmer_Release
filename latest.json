@@ -8,7 +8,7 @@
     "重做：网页端服务器卡片改为类型徽标、状态、在线玩家、内存、位置、端口标签与「进入控制台」入口，增加悬停/入场动画和安装脉冲。",
     "重做：新建服务器弹窗改为三步向导：服务端按原版/插件/模组/混合/代理分组，版本按主版本分组点选，常用配置优先、高级设置折叠，每项带小白注释与右侧实时预览；创建按钮固定在弹窗底部。"
   ],
-  "url": "https://github.com/xiaochaoqwer/CSY_Glimmer_Release/releases/download/v1.1.4/CSY_Glimmer_1.1.4.exe",
-  "sha256": "9745492496d0f1f631dbe7b1a77d49c7669612a2d19a14f20c8b02e35ecb3633",
-  "size": 81348813
+  "url": "https://github.com/Mr-Zhang-Studio/Mr-Zhang-Release/releases/download/v1.1.4/CSY_Glimmer_1.1.4.exe",
+  "sha256": "0668544a1b0e3b2e07b1910b063bca6cd7d1fbc414de55f26fe82809ce2cb912",
+  "size": 81348745
 }
